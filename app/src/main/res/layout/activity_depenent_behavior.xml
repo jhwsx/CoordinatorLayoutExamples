@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DependentBehaviorActivity">
+
+    <com.wzc.coordinatorlayout.examples.DependentView
+        android:id="@+id/dependent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#FFFF0000"
+        android:gravity="center"
+        android:text="dependent"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF00FF00"
+        android:gravity="center"
+        android:text="auto"
+        app:layout_behavior=".DependentBehavior"
+        android:textColor="@android:color/white"/>
+    <ImageView
+        android:id="@+id/iv"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.wzc.coordinatorlayout.examples.FollowTextView
+        android:id="@+id/followtextview"
+        android:text="FollowTextView"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

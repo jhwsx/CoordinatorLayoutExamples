@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CoordinatorLayoutExamples</string>
+    <string name="fab_activity_name">FABActivity</string>
+    <string name="dependent_behavior_activity_name">DependentBehaviorActivity</string>
+    <string name="scroll_behavior_activity_name">ScrollBehaviorActivity</string>
+    <string name="appbarlayout_activity_name">AppBarLayoutActivity</string>
+    <string name="collapsingtoolbarlayout_activity_name">CollapsingToolbarLayoutActivity</string>
+    <string name="collapsingtoolbarlayout_activity_2_name">CollapsingToolbarLayoutActivity2</string>
+    <string name="collapsingtoolbarlayout_activity_3_name">CollapsingToolbarLayoutActivity3</string>
+    <string name="collapsingtoolbarlayout_activity_4_name">CollapsingToolbarLayoutActivity4</string>
+    <string name="bottomsheet_behavior_activity_name">BottomSheetBehaviorActivity</string>
+</resources>
